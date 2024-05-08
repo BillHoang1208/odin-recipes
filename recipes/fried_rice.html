@@ -3,19 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Fried Rice Recipe</title>
   </head>
   <body>
-    <h1>Fried Rice</h1>
+    <h1 class="headings">Fried Rice</h1>
     <img
+      class="img"
       src="./img/fried_rice.jpg"
       alt="fried rice image"
       width="300px"
       height="300px"
     />
-    <div>
-      <h3>Description</h3>
-      <p style="display: block">
+    <div class="main_container">
+      <h3 class="headings">Description</h3>
+      <p style="display: block" class="desc">
         Fried rice is a versatile and flavorful dish that originated in China
         but has become popular worldwide. It typically consists of cooked rice
         stir-fried in a wok or frying pan with a variety of ingredients such as
@@ -23,20 +25,22 @@
         soy sauce, which not only adds a savory flavor but also gives the dish
         its characteristic brown color.
       </p>
-      <h4>Ingredients</h4>
-      <ul>
-        <li>Cooked rice</li>
-        <li>Soy sauce</li>
-        <li>Vegetable Oil</li>
-        <li>Sesame Oil</li>
-        <li>Chopped Vegetables</li>
-        <li>Protein (Chicken, Pork, Beef)</li>
-        <li>Garlic</li>
-        <li>Eggs</li>
-        <li>Seasonings</li>
-      </ul>
-      <h4>Steps</h4>
-      <ol>
+      <h4 class="headings">Ingredients</h4>
+      <div class="container">
+        <ul class="ingredients">
+          <li>Cooked rice</li>
+          <li>Soy sauce</li>
+          <li>Vegetable Oil</li>
+          <li>Sesame Oil</li>
+          <li>Chopped Vegetables</li>
+          <li>Protein (Chicken, Pork, Beef)</li>
+          <li>Garlic</li>
+          <li>Eggs</li>
+          <li>Seasonings</li>
+        </ul>
+      </div>
+      <h4 class="headings">Steps</h4>
+      <ol class="steps">
         <li>
           Prepare the Rice: If you're using fresh rice, cook it according to
           package instructions and let it cool completely. For best results,
@@ -104,6 +108,6 @@
         </li>
       </ol>
     </div>
-    <a href="../index.html"> Back to Main Page </a>
+    <a class="home_link" href="../index.html"> Back to Main Page </a>
   </body>
 </html>
